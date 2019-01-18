@@ -148,7 +148,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: "UA-47856899-1"
+  analytics_code: ""
   custom_styles: ""
   header_js: ""
   footer_js: ""
