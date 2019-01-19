@@ -12,7 +12,7 @@ featured_image: '/images/posts/2015/portraits-feature.jpg'
 
 So here we are with another set of fantastic images from Mike Mitchell. 
 
-You can find his Super! series I previously posted [here](http://www.clintbird.com/super-post/).
+You can find his Super! series I previously posted [here](/blog/super-post).
 
 These are basically just a set of side facing portraits based on all kinds of film characters - Again fantastic work from Mike.
 
