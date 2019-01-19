@@ -7,7 +7,6 @@ categories: stuff
 comments: true
 featured_image: '/images/posts/2015/portraits-feature.jpg'
 ---
-
 ![](/images/posts/2015/portraits.jpg)
 
 So here we are with another set of fantastic images from Mike Mitchell. 
