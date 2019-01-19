@@ -7,7 +7,6 @@ categories: stuff
 comments: true
 featured_image: '/images/posts/2015/steve-feature.jpg'
 ---
-
 So anyway this was originally some work done from an illustrator named [Helen Green](http://dollychops.tumblr.com/).
 
 In honour of Bowie's birthday she put together a series of illustrations from all his persona's over the years - well someone decided to "one-up" it by adding Steve Buscemi to the mix. 
