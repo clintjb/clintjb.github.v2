@@ -37,7 +37,7 @@ Master the technical skills needed to analyze financial statements and disclosur
 
 <a href="clintbird.com/images/headers/header-mba.jpg" target="_blank">Transcript & Final Grade - 82.0%</a>
 <a class="external" target="_blank" href="https://www.clintbird.com/images/headers/header-mba.jpg">Forum Stadtpark</a>
-<a href="/images/headers/header-mba.jpg" target="_blank" rel="noopener noreferrer">Google</a>
+<a href="www.clintbird.com/files/accounting.pdf" target="_blank" rel="noopener noreferrer">Transcript & Final Grade - 82.0%</a>
 
 
 ---
