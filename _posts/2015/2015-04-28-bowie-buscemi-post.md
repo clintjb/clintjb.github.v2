@@ -5,7 +5,7 @@ description: A mash-up of Steve Buscemi and David Bowies many varied personas
 tags: [stuff, pop culture, david bowie, steve buscemi, mashup, portrait]
 categories: stuff
 comments: true
-featured_image: '/images/posts/2015/buscemi-feature.jpg'
+featured_image: '/images/posts/2015/steve-feature.jpg'
 ---
 
 So anyway this was originally some work done from an illustrator named [Helen Green](http://dollychops.tumblr.com/).
