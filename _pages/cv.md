@@ -28,4 +28,4 @@ I’ve also completed an online MBA developed entirely out of MOOCs from some of
 * Python & HTML Scripting
 * Adobe Design Suite
 
-<a href="/files/resume.pdf"  target="_blank" class="button button--medium">Download CV</a>
+<a class="button button--medium" target="_blank" rel="noopener noreferrer" href="https://www.clintbird.com/files/resume.pdf">Download CV</a>
