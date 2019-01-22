@@ -12,7 +12,8 @@ featured_image: '/images/posts/2016/industry-feature.jpg'
 
 At the moment in Germany, the new flavour of the month seems to be Industry 4.0 - Everywhere I read/work, I'm being presented on the huge promises of cost savings to come. 
 
-During my time as a consultant I was deeply involved in the potential of linking PLM and MES systems for cost savings reasons (You can find an article I was featured in regarding this topic [here](/images/posts/2016/telegraph.jpg)) 
+During my time as a consultant I was deeply involved in the potential of linking PLM and MES systems for cost savings reasons (You can find an article I was featured in regarding this topic 
+<a class="external" target="_blank" rel="noopener noreferrer" href="https://www.clintbird.com/images/posts/2016/telegraph.jpg">here</a>
 
 The major issue I see today though, is that many of the barriers we had 5-8 years ago still exist today. I have concerns that the real cost savings still wont be seen for some time.
 
