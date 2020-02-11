@@ -5,10 +5,10 @@ description: My goto recipe for biscuits.
 tags: [cooking, bbq, biscuits, scones, sourdough, cornbread]
 categories: cooking
 comments: true
-featured_image: '/images/posts/2018/cornbread-feature.jpg'
+featured_image: '/images/posts/2019/cornbread-feature.jpg'
 ---
 
-![](/images/posts/2018/cornbread.jpg)
+![](/images/posts/2019/cornbread.jpg)
 
 The below recipes are basically interchangeable for either sourdough or cornbread biscuits - both are fantastic and I love to whip a batch up if I'm putting on a big BBQ spread.
 
