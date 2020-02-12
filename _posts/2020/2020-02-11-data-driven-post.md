@@ -2,8 +2,8 @@
 title: 'Creating A Data Driven Culture'
 date: 2020-02-11
 description: 10 Steps to creating a data driven culture.
-tags: [digitalization, transformation, data, culture, organisation, driven, improvement]
-categories: digitalization
+tags: [digitalization, business, transformation, data, culture, organisation, driven, improvement]
+categories: [digitalization, business]
 comments: true
 featured_image: '/images/posts/2020/data-driven-feature.jpg'
 ---
