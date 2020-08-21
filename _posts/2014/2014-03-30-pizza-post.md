@@ -12,12 +12,12 @@ featured_image: '/images/posts/2014/pizza-feature.jpg'
 
 So after playing with all different variations of the classic pizza dough. this is the one I've come to use as my go-to recipe. Super simple and always comes out perfect.
 
-* 2 cups flour, plus more for work surface
-* 1.5 teaspoons sugar
-* 3/4 teaspoon yeast
-* 220ml ice water
-* 1 tablespoon olive oil
-* 1  teaspoon table salt
+* 3 cups flour, plus more for work surface
+* 2.5 teaspoons sugar
+* 1.5 teaspoon yeast
+* 330ml ice water
+* 2 tablespoon olive oil
+* 2 teaspoon table salt
 
 Mix the flour, sugar, and yeast until combined. With the mixer running, slowly add the water and process until dough is just combined and no dry flour remains. Let the dough stand for 10 minutes.
 Add the oil and salt to the dough and process until dough forms satiny, sticky ball that clears the sides of the workbowl (30 to 60 seconds). 
