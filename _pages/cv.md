@@ -1,11 +1,9 @@
 ---
 title: CV
-subtitle: 18+ years experience in operations, digitalization, cost reduction and project management.
+subtitle: For 18+ years, I have been honing my skills as a technology and business leader in the fields of operations, digitalization, cost reduction and project management. This experience has been developed in increasingly responsible leadership positions in various industries including automotive, aerospace and military.
 tags: [CV, clint, bird, hamburg, germany, dtc, airbus, operations, mba, cost, reduction, digital, transformation, python, digitalization, big data, algorithms]
 featured_image: /images/headers/header-cv.jpg
 ---
-For 18+ years, I have been honing my skills as a technology and business leader in the fields of operations, digitalization, cost reduction and project management. This experience has been developed in increasingly responsible leadership positions in various industries including automotive, aerospace and military.
-
 ![](/images/headers/header-cv.jpg)
 
 Quite often strategies aren't effectively implemented, as the disconnect between high-level vision and operational reality is never truly closed. I enjoy nothing more than bringing clever, pragmatic solutions to life to solve these complex problems. 
