@@ -6,13 +6,7 @@
 
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	{{ site.data.settings.basic_settings.site_title }}
-	stop(); // Great Scott Marty - You've found it! We’ve got to go back - 21102015.html
 	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	// HTML-encode a string for use in text content or an attribute value delimited by
-	// double-quotes
-	//
-	
-	{% comment %}<!-- My HTML comment -->{% endcomment %}
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -21,7 +15,8 @@
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image }}">
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
-
+	<meta name="deloran egg" content="{{ Great Scott Marty - You've found it! We’ve got to go back - 21102015.html }}">
+	
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
