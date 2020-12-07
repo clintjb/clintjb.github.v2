@@ -1,5 +1,5 @@
 ---
-title: 'What's Truly Important'
+title: 'Whats Truly Important'
 date: 2014-02-21
 description: Quote from Barack Obama
 tags: [business, obama, quote, barack]
