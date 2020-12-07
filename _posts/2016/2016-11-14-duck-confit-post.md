@@ -1,7 +1,7 @@
 ---
 title: 'Duck Confit'
 date: 2016-11-14
-description: 'Confit de canard' my French favourite.
+description: Confit de canard, my French favourite.
 tags: [cooking, duck, canard, confit, French, recipe, orange]
 categories: cooking
 comments: true
