@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Bending The Rules & Hacking Work'
 date: 2020-02-11
 description: How to bend the rules to work better.
@@ -34,7 +34,7 @@ What's the common thread here? Hacking.
 
 It's breaking the rules, typically in small ways, to net you greater efficiency from the working systems you're stuck within.
 
-#### Pros and cons
+#### Pros & Cons
 The goal is to improve those systems, not just for yourself, but for everyone - and ultimately to improve and replace those systems altogether. When companies lock down their systems and fail to listen to staff feedback, more often than not the result is that employees take matters into their own hands and find ways getting round their restrictions. It's what we're seeing in the dissolution of archaic markets and business models, and in the creation of new ones - a highly efficient, individual-driven community shift towards solutions that work, and that carry more than just precedent.
 
 There are downsides; namely, you could lose your job. But the upsides far outweigh the risk. Research shows that job security today is an illusion, and simultaneously throws into stark relief that the ones who are excelling in their fields are doing so despite the corporate systems that surround them.
