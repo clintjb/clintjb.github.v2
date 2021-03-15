@@ -40,7 +40,7 @@ social_settings:
   fas fa-envelope_url: '/contact.html'
   fas fa-rss_url: 'https://www.clintbird.com/feed.xml'
   fab fa-linkedin_url: 'https://linkedin.com/in/clintjb'
-  fab fa-lastfm_url: 'http://lastfm.com/user/clintjb'
+  fab fa-lastfm_url: 'https://www.last.fm/user/clintjb'
   fab fa-github_url: 'https://github.com/clintjb'
 
 color_settings:
