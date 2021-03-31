@@ -31,14 +31,10 @@ Occasionally, IT members, especially in operations, fear that this means it's no
 #### The New Value of Automation
 Automation in software delivery has different goals:
 
-* Speed | Speed is the currency of the digital economy. Automation makes you faster and, if you use that speed to iterate and innovate more quickly, it provides significant value for the organization.
-
-* Resilience | It's often forgotten that a new feature release isn't the only time you deploy software. In case of a hardware failure, you need to deploy software quickly to a new set of machines. With highly automated software delivery, this is a matter of seconds or minutes - it's done before the first incident call can be setup. Speed aids resilience.
-
-* Repeatability Brings Confidence | Automation takes the error margin out of a process and makes it repeatable. That's why you shouldn't send a human to do a machine's work. And repeatability breeds confidence. You don't want your development teams to be afraid of the next software release: fear bring hesitation and hesitation slows you down.
-
-* Insight & Governance | Automated processes (in IT deployment or otherwise) give you much better insight into what happened when for what reasons and how long it took. Doing so allows you to go fast and be more compliant than with manual control processes. It also allows you to find bottlenecks and improve the system.
-
-* Continuous Improvement / Refinement | Having a repeatable and transparent process is the base condition for continuous improvement: you can see what works well and what doesn't and improve it without having to re-train people and suffering from quality issues do to re-learning.
+Speed | Speed is the currency of the digital economy. Automation makes you faster and, if you use that speed to iterate and innovate more quickly, it provides significant value for the organization.
+Resilience | It's often forgotten that a new feature release isn't the only time you deploy software. In case of a hardware failure, you need to deploy software quickly to a new set of machines. With highly automated software delivery, this is a matter of seconds or minutes - it's done before the first incident call can be setup. Speed aids resilience.
+Repeatability Brings Confidence | Automation takes the error margin out of a process and makes it repeatable. That's why you shouldn't send a human to do a machine's work. And repeatability breeds confidence. You don't want your development teams to be afraid of the next software release: fear bring hesitation and hesitation slows you down.
+Insight & Governance | Automated processes (in IT deployment or otherwise) give you much better insight into what happened when for what reasons and how long it took. Doing so allows you to go fast and be more compliant than with manual control processes. It also allows you to find bottlenecks and improve the system.
+Continuous Improvement / Refinement | Having a repeatable and transparent process is the base condition for continuous improvement: you can see what works well and what doesn't and improve it without having to re-train people and suffering from quality issues do to re-learning.
 
 Today's drive to automate IT infrastructure is not driven by the desire to eliminate jobs and increase efficiency. It's much more about speed, uptime, repeatability, and insight. This means that operations teams should embrace, not fear automation of software delivery.
