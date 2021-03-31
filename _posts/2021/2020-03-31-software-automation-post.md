@@ -1,5 +1,5 @@
 ---
-title: 'Software Automation Isn't About Efficiency'
+title: 'Software Automation Isnt About Efficiency'
 date: 2021-03-31
 description: The real reasons behind the push to increase automation in software development.
 tags: [digitalization, transformation, data, devops, organisation, improvement, speed]
