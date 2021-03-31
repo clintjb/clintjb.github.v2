@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Software Automation Isn't About Efficiency'
 date: 2021-03-31
 description: The real reasons behind the push to increase automation in software development.
