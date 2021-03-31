@@ -15,6 +15,7 @@ As kids, my brother and I never had particularly much spending money and my pare
 Just writing this - I can even smell that disgustingly brittle chewing gum that came in the wax pack. My brother and I would wet ourselves laughing all the way home at the ridiculous artwork - I'm not certain who the artist was that's recreated these, but as soon as I saw them they instantly put a smile on my face.
 
 <div class="gallery" data-columns="3">
+	<img src="/images/posts/2021/garbagekids-1.jpg">
 	<img src="/images/posts/2021/garbagekids-2.jpg">
 	<img src="/images/posts/2021/garbagekids-3.jpg">
 	<img src="/images/posts/2021/garbagekids-4.jpg">
