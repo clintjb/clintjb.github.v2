@@ -7,7 +7,7 @@ categories: stuff
 comments: true
 featured_image: '/images/posts/2017/gifs-feature.jpg'
 ---
-
+<script data-ad-client="ca-pub-6030108871824040" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ![](/images/posts/2017/gifs-1.gif)
 
 Here's some cool little animations I've come across over the course of this year - most of them were likley found on [Dribbble](https://dribbble.com/).
