@@ -19,7 +19,7 @@ https://www.performancetrustednetwork.com/kkkx3m1ken?key=6288f2a095571bdc928acfb
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
 		'format' : 'iframe',
 		'height' : 90,
-		'display : block,
+		'display' : block,
 		'height' : 90,
 		'width' : 728,
 		'params' : {}
