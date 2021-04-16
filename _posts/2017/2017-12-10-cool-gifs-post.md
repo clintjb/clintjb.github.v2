@@ -14,7 +14,6 @@ Here's some cool little animations I've come across over the course of this year
 	atOptions = {
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
 		'format' : 'iframe',
-		'position' : absolute,
 		'height' : 90,
 		'width' : 728,
 		'params' : {}
