@@ -11,7 +11,6 @@ Here's some cool little animations I've come across over the course of this year
 
 <script type='text/javascript' src='//pl16227687.performancetrustednetwork.com/1b/4d/c9/1b4dc95e3a1bcb151f9938936158e6c2.js'></script>
 
-<div id="parent">  
 <script type="text/javascript">
 	atOptions = {
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
@@ -22,8 +21,17 @@ Here's some cool little animations I've come across over the course of this year
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/935d04d134fb86a1cca183c66f7ed80e/invoke.js"></scr' + 'ipt>');
 </script>
-</div>
-
+<div class="gallery">
+	<img src="/images/posts/2017/gifs-2.gif">
+	<img src="/images/posts/2017/gifs-3.gif">
+	<img src="/images/posts/2017/gifs-4.gif">
+	<img src="/images/posts/2017/gifs-5.gif">
+	<img src="/images/posts/2017/gifs-6.gif">
+	<img src="/images/posts/2017/gifs-7.gif">
+	<img src="/images/posts/2017/gifs-8.gif">
+	<img src="/images/posts/2017/gifs-9.gif">
+	<img src="/images/posts/2017/gifs-10.gif">
+</div
 <div class="gallery" data-columns="3">
 	<img src="/images/posts/2017/gifs-2.gif">
 	<img src="/images/posts/2017/gifs-3.gif">
