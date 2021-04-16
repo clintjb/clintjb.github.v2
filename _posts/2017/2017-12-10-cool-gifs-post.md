@@ -13,6 +13,36 @@ Here's some cool little animations I've come across over the course of this year
 	<img src="/images/posts/2017/gifs-2.gif">
 	<img src="/images/posts/2017/gifs-3.gif">
 	<img src="/images/posts/2017/gifs-4.gif">
+	<script type="text/javascript">
+	atOptions = {
+		'key' : '91de69b2484c2a1a1ce0f7f8fd0e0916',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/91de69b2484c2a1a1ce0f7f8fd0e0916/invoke.js"></scr' + 'ipt>');
+</script>
+	<script type="text/javascript">
+	atOptions = {
+		'key' : '91de69b2484c2a1a1ce0f7f8fd0e0916',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/91de69b2484c2a1a1ce0f7f8fd0e0916/invoke.js"></scr' + 'ipt>');
+</script>
+	<script type="text/javascript">
+	atOptions = {
+		'key' : '91de69b2484c2a1a1ce0f7f8fd0e0916',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/91de69b2484c2a1a1ce0f7f8fd0e0916/invoke.js"></scr' + 'ipt>');
+</script>
 	<img src="/images/posts/2017/gifs-5.gif">
 	<img src="/images/posts/2017/gifs-6.gif">
 	<img src="/images/posts/2017/gifs-7.gif">
