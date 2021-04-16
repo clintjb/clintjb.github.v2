@@ -17,8 +17,6 @@ Here's some cool little animations I've come across over the course of this year
 	atOptions = {
 		'key' : '91de69b2484c2a1a1ce0f7f8fd0e0916',
 		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/91de69b2484c2a1a1ce0f7f8fd0e0916/invoke.js"></scr' + 'ipt>');
@@ -27,8 +25,6 @@ Here's some cool little animations I've come across over the course of this year
 	atOptions = {
 		'key' : '91de69b2484c2a1a1ce0f7f8fd0e0916',
 		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/91de69b2484c2a1a1ce0f7f8fd0e0916/invoke.js"></scr' + 'ipt>');
@@ -37,8 +33,6 @@ Here's some cool little animations I've come across over the course of this year
 	atOptions = {
 		'key' : '91de69b2484c2a1a1ce0f7f8fd0e0916',
 		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/91de69b2484c2a1a1ce0f7f8fd0e0916/invoke.js"></scr' + 'ipt>');
