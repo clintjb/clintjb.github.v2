@@ -8,9 +8,6 @@ comments: true
 featured_image: '/images/posts/2017/gifs-feature.jpg'
 ---
 <script data-ad-client="ca-pub-6030108871824040" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script type='text/javascript' src='//pl16227687.performancetrustednetwork.com/1b/4d/c9/1b4dc95e3a1bcb151f9938936158e6c2.js'></script>
-![](/images/posts/2017/gifs-1.gif)
-<script type='text/javascript' src='//pl16227699.performancetrustednetwork.com/89/08/8d/89088df83b3387bd619feb101237ac53.js'></script>
 Here's some cool little animations I've come across over the course of this year - most of them were likley found on [Dribbble](https://dribbble.com/).
 https://www.performancetrustednetwork.com/kkkx3m1ken?key=6288f2a095571bdc928acfb25255839f
 
@@ -18,8 +15,6 @@ https://www.performancetrustednetwork.com/kkkx3m1ken?key=6288f2a095571bdc928acfb
 	atOptions = {
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
 		'format' : 'iframe',
-		'height' : 90,
-		'display' : block,
 		'height' : 90,
 		'width' : 728,
 		'params' : {}
@@ -38,3 +33,4 @@ https://www.performancetrustednetwork.com/kkkx3m1ken?key=6288f2a095571bdc928acfb
 	<img src="/images/posts/2017/gifs-9.gif">
 	<img src="/images/posts/2017/gifs-10.gif">
 </div>
+<script type='text/javascript' src='//pl16227687.performancetrustednetwork.com/1b/4d/c9/1b4dc95e3a1bcb151f9938936158e6c2.js'></script>
