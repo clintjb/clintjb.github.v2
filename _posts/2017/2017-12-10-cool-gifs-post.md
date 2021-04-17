@@ -21,15 +21,19 @@ Here's some cool little animations I've come across over the course of this year
 	<img src="/images/posts/2017/gifs-6.gif">
 	<img src="/images/posts/2017/gifs-7.gif">
 </div>
+<div class="gallery">
 <script type="text/javascript">
 	atOptions = {
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
 		'format' : 'iframe',
-		'width' : 100%,
+		'height' : 90,
+		'width' : 728,
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/935d04d134fb86a1cca183c66f7ed80e/invoke.js"></scr' + 'ipt>');
-</script>	
+</script>
+</div>
+	
 <div class="gallery" data-columns="3">
 	<img src="/images/posts/2017/gifs-8.gif">
 	<img src="/images/posts/2017/gifs-9.gif">
