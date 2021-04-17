@@ -23,7 +23,7 @@ Here's some cool little animations I've come across over the course of this year
 	<img src="/images/posts/2017/gifs-6.gif">
 	<img src="/images/posts/2017/gifs-7.gif">
 </div>
-<div class="gallery" style="width:100%;">
+<div style="width:100%;">
 <script type="text/javascript">
 	atOptions = {
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
