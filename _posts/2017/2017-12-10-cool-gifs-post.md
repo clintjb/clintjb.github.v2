@@ -14,14 +14,16 @@ Here's some cool little animations I've come across over the course of this year
 	<img src="/images/posts/2017/gifs-3.gif">
 	<img src="/images/posts/2017/gifs-4.gif">
 </div>
+<div class="gallery" data-columns="1">
 <script async="async" data-cfasync="false" src="//pl16227749.performancetrustednetwork.com/a971dc3bdf349ced803ffc02aadb0749/invoke.js"></script>
 <div id="container-a971dc3bdf349ced803ffc02aadb0749"></div>
+</div>
 <div class="gallery" data-columns="3">
 	<img src="/images/posts/2017/gifs-5.gif">
 	<img src="/images/posts/2017/gifs-6.gif">
 	<img src="/images/posts/2017/gifs-7.gif">
 </div>
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="1" style="text-align:center;">
 <script type="text/javascript">
 	atOptions = {
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
