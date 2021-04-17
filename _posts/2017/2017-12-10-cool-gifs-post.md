@@ -21,17 +21,9 @@ Here's some cool little animations I've come across over the course of this year
 	<img src="/images/posts/2017/gifs-6.gif">
 	<img src="/images/posts/2017/gifs-7.gif">
 </div>
+<script async="async" data-cfasync="false" src="//pl16227749.performancetrustednetwork.com/a971dc3bdf349ced803ffc02aadb0749/invoke.js"></script>
+<div id="container-a971dc3bdf349ced803ffc02aadb0749"></div>
 <div class="gallery" data-columns="3">
-	<script async="async" data-cfasync="false" src="//pl16227749.performancetrustednetwork.com/a971dc3bdf349ced803ffc02aadb0749/invoke.js"></script>
-	<div id="container-a971dc3bdf349ced803ffc02aadb0749"></div>
-</div>
-<div class="gallery" data-columns="3">
-	<img src="/images/posts/2017/gifs-2.gif">
-	<img src="/images/posts/2017/gifs-3.gif">
-	<img src="/images/posts/2017/gifs-4.gif">
-	<img src="/images/posts/2017/gifs-5.gif">
-	<img src="/images/posts/2017/gifs-6.gif">
-	<img src="/images/posts/2017/gifs-7.gif">
 	<img src="/images/posts/2017/gifs-8.gif">
 	<img src="/images/posts/2017/gifs-9.gif">
 	<img src="/images/posts/2017/gifs-10.gif">
