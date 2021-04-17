@@ -26,8 +26,7 @@ Here's some cool little animations I've come across over the course of this year
 	atOptions = {
 		'key' : '935d04d134fb86a1cca183c66f7ed80e',
 		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
+		'width' : 100%,
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/935d04d134fb86a1cca183c66f7ed80e/invoke.js"></scr' + 'ipt>');
@@ -38,5 +37,12 @@ Here's some cool little animations I've come across over the course of this year
 	<img src="/images/posts/2017/gifs-9.gif">
 	<img src="/images/posts/2017/gifs-10.gif">
 </div>
-<script async="async" data-cfasync="false" src="//pl16227749.performancetrustednetwork.com/a971dc3bdf349ced803ffc02aadb0749/invoke.js"></script>
-<div id="container-a971dc3bdf349ced803ffc02aadb0749"></div>
+<div class="gallery">
+<script type="text/javascript">
+	atOptions = {
+		'key' : '935d04d134fb86a1cca183c66f7ed80e',
+		'format' : 'iframe',
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/935d04d134fb86a1cca183c66f7ed80e/invoke.js"></scr' + 'ipt>');
+</script>
