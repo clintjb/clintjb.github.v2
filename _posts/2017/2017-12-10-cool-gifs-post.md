@@ -7,7 +7,8 @@ categories: stuff
 comments: true
 featured_image: '/images/posts/2017/gifs-feature.jpg'
 ---
-Here's some cool little animations I've come across over the course of this year - most of them were likley found on [Dribbble](https://dribbble.com/).
+Here's some cool little animations I've come across over the course of this year - most of them were likely found on [Dribbble](https://dribbble.com/). Also be sure to check out the recently created "part 2" of this, focussed predominantly on comic based gifs which you can find [here](https://clintbird.com/blog/cool-gifs-comic-post).
+
 <div class="gallery" data-columns="3">
 	<img src="/images/posts/2017/gifs-2.gif">
 	<img src="/images/posts/2017/gifs-3.gif">
