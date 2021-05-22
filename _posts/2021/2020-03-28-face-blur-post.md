@@ -1,8 +1,8 @@
 ---
-title: 'Dynamic Face Detection & Blurring'
+title: 'Face Detection & Blurring'
 date: 2021-03-28
-description: Some random comic based animated gifs I’ve stumbled across....
-tags: [digitalization, python, face, opencv, anonymization, webcam, blurring]
+description: An afternoon experiment with dynamic face detection utilizing Python & OpenCV
+tags: [digitalization, python, face, opencv, anonymization, webcam, blurring, detection, dynamic]
 categories: digitalization
 comments: true
 featured_image: '/images/posts/2021/face-blur-feature.jpg'
