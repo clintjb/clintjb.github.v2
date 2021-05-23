@@ -8,7 +8,7 @@ comments: true
 featured_image: '/images/posts/2019/melbourne-weather-feature.jpg'
 ---
 
-Most of the really interesting things I work on / or useful packages I stumble across I cant usually share as they're linked to my job. Nevertheless, this exercise was 100% personal - basically, I wanted to have a look at a few different topics (namely Plotly & native SQL calls in Python) so decided to wrap it into this mini-project. Personally, I always like approaching new tech / packages like this - either by finding a problem at work to potentially solve, or just mixing some topics for my own interest. Nothing helps me learn though by actually applying it to a problem / goal. If you're interested you can find my code and datasets [here](https://github.com/clintjb/Weather-Analysis) on GitHub.
+Most of the really interesting things I work on / or useful packages I stumble across I cant usually share as they're linked to my job. Nevertheless, this exercise was 100% personal - basically, I wanted to have a look at a few different topics (namely Plotly & native SQL calls in Python) so decided to wrap it into this mini-project. Personally, I always like approaching new tech / packages like this - either by finding a problem at work to potentially solve, or just mixing some topics for my own interest. Nothing helps me learn quite like actually applying it to a problem / goal. If you're interested you can find my code and datasets [here](https://github.com/clintjb/Weather-Analysis) on GitHub.
 
 ![](/images/posts/2019/melbourne-weather.jpg)
 
