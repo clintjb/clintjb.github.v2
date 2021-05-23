@@ -16,14 +16,14 @@ I’ve also completed an online MBA developed entirely out of MOOCs from some of
 
 #### Skills
 * Operations & Supply Chain
+* Technological / Digital Literacy
+* Presenting / Public Speaking
 * LEAN Methods
+* Python, Data Analytics & Algorithms
+* DevOps Tools & Technologies
 * Project Management (PRINCE2 & Airbus Bronze)
 * Cost Reduction & Value Engineering
 * Financial Analysis & Forecasting
-* Presenting / Public Speaking
-* Data Analytics & Algorithms
-* Technological / Digital Literacy
-* Python & HTML Scripting
 * Adobe Design Suite
 
 <a class="button button--medium" target="_blank" rel="noopener noreferrer" href="https://www.clintbird.com/files/resume.pdf">Download CV</a>
