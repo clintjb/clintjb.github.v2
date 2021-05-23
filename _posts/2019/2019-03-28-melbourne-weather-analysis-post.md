@@ -16,7 +16,7 @@ Most of the really interesting things I work on / or useful packages I stumble a
 The below analysis was created to compare local and global temperature data sets and the temperature trends between Melbournne Australia to the overall global temperature trends.
 
 ### Approach
-Two data sets (global monthly temperatures and local yearly temperatures) were imported via Python and transfered into a local SQL database[^1]. SQL queries were created to extract the temperatures related to the city of Melbourne and globally between the years of 1820 - 2013.
+Two data sets (global monthly temperatures and local yearly temperatures) were imported via Python and transfered into a local SQL database[<sup>1</sup>](#fn1). SQL queries were created to extract the temperatures related to the city of Melbourne and globally between the years of 1820 - 2013.
 
 The following queries were created to extract the global and local data from the SQL databases respecitvly:
 
@@ -31,7 +31,7 @@ FROM city_data
 WHERE city = "Melbourne" AND year BETWEEN "1850" AND "2013"
 ```
 
-With the data extracted it was imported into a Python dataframe and filtered to begin on the first year both land and ocean average temperatures were avaialble[^2]. A ten year moving average was applied to both data frames (with the following code) to ensure the charts were smoothed to make for a result which was visually easy to compare abnd intepret.
+With the data extracted it was imported into a Python dataframe and filtered to begin on the first year both land and ocean average temperatures were avaialble[<sup>2</sup>](#fn2). A ten year moving average was applied to both data frames (with the following code) to ensure the charts were smoothed to make for a result which was visually easy to compare abnd intepret.
 
 ```
 df['avg_temp'].rolling(window=10).mean()
@@ -117,9 +117,11 @@ Over the last 50 years of the dataset (1960 - 2010) we have seen globally there 
 
 Although Melbourne is approximatley 4.3% higher then the global average in the same time span its growing at a significantly higher rate (7%) then the world average when measured over the past 100 years.
 
-Its clear that the data inidcates the **world is getting significantly hotter**, of significant concern though is that the fastest growing city in Australia (the dryest continent on earth[^3] is increasing in temperature well above and beyond the global norm.
+Its clear that the data inidcates the **world is getting significantly hotter**, of significant concern though is that the fastest growing city in Australia (the dryest continent on earth[<sup>3</sup>](#fn3)) is increasing in temperature well above and beyond the global norm.
 
 ### Footnotes
-[^1]: The conversion of the tables into a SQL database and queried back into a dataframe was simply to keep consistent with the goal of the project. This was obviously not the most efficient solution.</span>
-[^2]: Average land and ocean temperatures for the analysis was selected simply as its been shown this is a more accurate global measure.</span>
-[^3]: [GeoScience - Australian government data source](https://www.ga.gov.au/scientific-topics/national-location-information/landforms/deserts)</span>
+<span id="fn1"> [1] The conversion of the tables into a SQL database and queried back into a dataframe was simply to keep consistent with the goal of the project. This was obviously not the most efficient solution.</span>
+
+<span id="fn2"> [2] Average land and ocean temperatures for the analysis was selected simply as its been shown this is a more accurate global measure.</span>
+
+<span id="fn3"> [3] [GeoScience - Australian government data source](https://www.ga.gov.au/scientific-topics/national-location-information/landforms/deserts)</span>
