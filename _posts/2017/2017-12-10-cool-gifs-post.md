@@ -7,36 +7,15 @@ categories: stuff
 comments: true
 featured_image: '/images/posts/2017/gifs-feature.jpg'
 ---
-<script type='text/javascript' src='//pl16227687.performancetrustednetwork.com/1b/4d/c9/1b4dc95e3a1bcb151f9938936158e6c2.js'></script>
 Here's some cool little animations I've come across over the course of this year - most of them were likely found on [Dribbble](https://dribbble.com/). Also be sure to check out the recently created "part 2" of this, focussed predominantly on comic based gifs which you can find [here](https://clintbird.com/blog/cool-gifs-comic-post).
 
 <div class="gallery" data-columns="3">
 	<img src="/images/posts/2017/gifs-2.gif">
 	<img src="/images/posts/2017/gifs-3.gif">
 	<img src="/images/posts/2017/gifs-4.gif">
-</div>
-<div class="gallery">
-<script async="async" data-cfasync="false" src="//pl16227749.performancetrustednetwork.com/a971dc3bdf349ced803ffc02aadb0749/invoke.js"></script>
-<div id="container-a971dc3bdf349ced803ffc02aadb0749"></div>
-</div>
-<div class="gallery" data-columns="3">
 	<img src="/images/posts/2017/gifs-5.gif">
 	<img src="/images/posts/2017/gifs-6.gif">
 	<img src="/images/posts/2017/gifs-7.gif">
-</div>
-<div class="gallery" style="text-align:center;">
-<script type="text/javascript">
-	atOptions = {
-		'key' : '91de69b2484c2a1a1ce0f7f8fd0e0916',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.varietyofdisplayformats.com/91de69b2484c2a1a1ce0f7f8fd0e0916/invoke.js"></scr' + 'ipt>');
-</script>
-</div>
-<div class="gallery" data-columns="3">
 	<img src="/images/posts/2017/gifs-8.gif">
 	<img src="/images/posts/2017/gifs-9.gif">
 	<img src="/images/posts/2017/gifs-10.gif">
