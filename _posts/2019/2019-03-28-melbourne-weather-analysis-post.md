@@ -101,7 +101,9 @@ temps.iplot(kind="line", theme="white",
             x ='year', y =[city_var, 'Global'], 
             title="Global Warming Trends", xTitle='Year', yTitle='Average Temperature')
 ```
-<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed?width=800&amp;height=319" width="800" height="319" frameborder="0" scrolling="no" seamless="seamless"></iframe></p>
+
+<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed?width=800&amp;height=450" width="800" height="450" frameborder="0" scrolling="no" seamless="seamless"></iframe></p>
+
 ```python
 # Last 50 years summary
 summary = temps.loc[temps['year'].isin(['1960','2010'])]
