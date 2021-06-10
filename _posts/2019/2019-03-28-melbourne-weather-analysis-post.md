@@ -104,11 +104,11 @@ temps.iplot(kind="line", theme="white",
 
 <p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed?width=800&amp;height=450" width="800" height="450" frameborder="0" scrolling="no" seamless="seamless"></iframe></p>
 
-<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed?width=800&amp;height=450" width="100%" height="100%" frameborder="0" scrolling="no" seamless="seamless"></iframe></p>
+<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed?width=800&amp;height=450" width="100%" frameborder="0" scrolling="no" seamless="seamless"></iframe></p>
 
-<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed" width="100%" height="100%" frameborder="0" scrolling="no" seamless="seamless"></iframe></p>
+<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed" width="100%" frameborder="0" scrolling="no" seamless="seamless"></iframe></p>
 
-<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></p>
+<p align="center"><iframe src="https://chart-studio.plotly.com/~clintjb/3/.embed" frameborder="0" style="position:absolute;top:0;left:0;width:100%;"></iframe></p>
 
 ```python
 # Last 50 years summary
