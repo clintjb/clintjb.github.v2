@@ -41,15 +41,3 @@ function tbl(csv){ // do whatever is necessary to create your table here ...
            .join('\n'); }
 </script>
 <table id="main"></table>
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="//jquerycsvtotable.googlecode.com/files/jquery.csvToTable.js"></script>
-
-<script>
-$(function() {
-  $('#CSVTable').CSVToTable('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv');
-});
-</script>
-<div id="CSVTable"></div>
-
