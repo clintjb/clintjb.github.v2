@@ -18,7 +18,22 @@ featured_image: '/images/posts/2021/rpa-feature.jpg'
 
 <iframe width=100%, height=650, src='https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html'></iframe>
 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html"); 
+    });
+    </script> 
+     <div id="includedContent"></div>
 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html"); 
+    });
+    </script> 
+     <div id="includedContent"></div>
+     
 <script>
 window.onload=function(){ with (new XMLHttpRequest()) {
   onreadystatechange=cb; open('GET','https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv',true); responseType='text';send();
