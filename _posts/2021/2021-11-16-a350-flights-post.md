@@ -10,9 +10,13 @@ featured_image: '/images/posts/2021/rpa-feature.jpg'
 
 ![](/images/posts/2021/rpa.jpg)
 
-<iframe width=100%, height=650, src='https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html'></iframe>
+<iframe src="https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html" height="450" width="100%" frameborder="0" scrolling="no" seamless="seamless"></iframe>
+
+<iframe width=100%, height=650, src='https://githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html'></iframe>
 
 <iframe width=100%, height=650, src='https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html'></iframe>
+
+<iframe width=100%, height=650, src='https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html'></iframe>
 
 
 <script>
