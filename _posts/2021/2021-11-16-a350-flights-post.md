@@ -31,7 +31,7 @@ featured_image: '/images/posts/2021/rpa-feature.jpg'
 window.onload=function(){ with (new XMLHttpRequest()) {
   onreadystatechange=cb; open('GET','https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv',true); responseType='text';send();
 }}
-function cb(){if(this.readyState===4)document.getElementById('main')
+function cb(){if(this.readyState===4)document.getElementById('A350')
                                              .innerHTML=tbl(this.responseText); }
 function tbl(csv){ // do whatever is necessary to create your table here ...
  return csv.split('\n')
