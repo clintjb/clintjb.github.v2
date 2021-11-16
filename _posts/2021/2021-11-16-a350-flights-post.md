@@ -11,7 +11,7 @@ featured_image: '/images/posts/2021/rpa-feature.jpg'
 ![](/images/posts/2021/rpa.jpg)
 
 <table>
-  {% for row in site.data.a350_data %}
+  {% for row in https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
@@ -40,4 +40,4 @@ function tbl(csv){ // do whatever is necessary to create your table here ...
                                      +'</td></tr>';})
            .join('\n'); }
 </script>
-<table id="main"></table>
+<table id="A350"></table>
