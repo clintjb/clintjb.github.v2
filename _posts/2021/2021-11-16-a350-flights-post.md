@@ -10,6 +10,6 @@ featured_image: '/images/posts/2021/rpa-feature.jpg'
 
 ![](/images/posts/2021/rpa.jpg)
 
-<div style="width:80%; padding-bottom:56.25%; position:relative;">
-<iframe src="https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html" style="position:absolute;"></iframe>
+<div style="width:80%; position:relative;">
+<iframe src="https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html" style="position:absolute; top:0px; left:0px; height:80%; overflow: hidden;"></iframe>
 </div>
