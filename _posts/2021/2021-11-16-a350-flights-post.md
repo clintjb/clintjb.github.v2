@@ -27,11 +27,22 @@ featured_image: '/images/posts/2021/rpa-feature.jpg'
 </table>
 
 
+<script>
+window.onload=function(){ with (new XMLHttpRequest()) {
+  onreadystatechange=cb; open('GET','https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv',true); responseType='text';send();
+}}
+function cb(){if(this.readyState===4)document.getElementById('main')
+                                             .innerHTML=tbl(this.responseText); }
+function tbl(csv){ // do whatever is necessary to create your table here ...
+ return csv.split('\n')
+           .map(function(tr,i){return '<tr><td>'
+                                     +tr.replace(/\t/g,'</td><td>')
+                                     +'</td></tr>';})
+           .join('\n'); }
+</script>
+<table id="main"></table>
 
 
-
-
-<div id="CSVTable"></div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="//jquerycsvtotable.googlecode.com/files/jquery.csvToTable.js"></script>
 
@@ -40,3 +51,5 @@ $(function() {
   $('#CSVTable').CSVToTable('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv');
 });
 </script>
+<div id="CSVTable"></div>
+
