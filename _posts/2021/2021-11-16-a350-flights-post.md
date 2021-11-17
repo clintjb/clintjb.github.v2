@@ -38,4 +38,4 @@ function tbl(csv) { // do whatever is necessary to create your table here ...
 }
 </script>
 
-<table style='font-family:"Courier New", Courier, monospace; font-size:80%' id="A350"></table>
+<table style='font-family:monospace; font-size:50%' id="A350"></table>
