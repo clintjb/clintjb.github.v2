@@ -28,7 +28,7 @@ function cb() {
 }
 
 function tbl(csv) { // do whatever is necessary to create your table here ...
-	return csv.split('\r\n')
+	return csv.split('\\n')
 		.map(function(tr, i) {
 			return '<tr><td>' +
 				tr.replace(/\t/g, '</td><td>') +
