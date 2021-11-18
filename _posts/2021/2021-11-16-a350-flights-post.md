@@ -10,6 +10,21 @@ featured_image: '/images/posts/2021/rpa-feature.jpg'
 
 ![](/images/posts/2021/rpa.jpg)
 
+<table>
+  {% for row in site.data.a350_data %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
 {% include a350.html %}
 {% include a350_csv.html %}
