@@ -134,7 +134,9 @@ function tbl(csv) { // do whatever is necessary to create your table here ...
 
 <table border="0" style='font-size:50%' id="A350"></table>
 ```
+
 _👇 If you don't see a table below, try CTRL + SHIFT + R_
+
 {% include a350_csv.html %}
 
 ### Part 2 - GitHub Actions & Automation
