@@ -10,7 +10,7 @@ featured_image: '/images/posts/2021/a350-feature.jpg'
 
 ![](/images/posts/2021/a350.jpg)
 
-> :warning: **IF USING MOBILE BROWSER**: I never designed this experiment / POC for mobile devices (was tricky enough to embed dynamically updated charts & data into a static site so didn't bother with responsive as well) I would highly recommend checking this out on a desktop
+_:warning: **IF USING MOBILE BROWSER**: I never designed this experiment / POC for mobile devices (was tricky enough to embed dynamically updated charts & data into a static site so didn't bother with responsive as well) I would highly recommend checking this out on a desktop_
 
 Some time ago I come across an article on GitHub Actions functionality and was really curious to come up with a little project to use as an excuse to dive deeper into what they could do. 
 In a nutshell, actions enable you to create custom software workflows directly in your Github repository - these workflows basically allow you to run container setups by adding support for docker and docker-compose files to your workflows (in my case a Python 3.9 environment)
@@ -87,7 +87,6 @@ fig.update_layout(
 
 Here you can see the outcome of this chart
 {% include a350.html %}
-
 Next, I would also like to keep the high-level details and output these directly into a table. To do this I decided to clean the columns, and extract the data as a CSV (you can find that [here](https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv) at the same time also extracting the map as a [static image](https://github.com/clintjb/A350-Tracking/blob/main/flight_data_a350.png) & the map as a [self-contained HTML](https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html)):
 
 ```python
