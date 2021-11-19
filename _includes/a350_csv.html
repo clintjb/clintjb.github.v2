@@ -1,26 +1,21 @@
 <script>
-	window.onload = function() {
-		with(new XMLHttpRequest()) {
-			onreadystatechange = cb;
-			open('GET', 'https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv', true);
-			responseType = 'text';
-			send();
-		}
-	}
+    fetch('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
+    ).then((response) => {
+        return response.text();
+    }).then((text) => {
+        document.getElementById('A350').innerHTML = tbl(text);
+    })
 
-function cb() {
-	if (this.readyState === 4) document.getElementById('A350')
-		.innerHTML = tbl(this.responseText);
-}
+    function tbl(csv) {
+        return csv.split('\n')
+            .map(function (tr, i) {
+                return '<tr><td>' +
+                    tr.replace(/,/g, '</td><td>') +
+                    '</td></tr>';
+            })
+            .join('\n');
+    }
 
-function tbl(csv) { // do whatever is necessary to create your table here ...
-	return csv.split('\n')
-		.map(function(tr, i) {
-			return '<tr><td>' +
-				tr.replace(/,/g,'</td><td>') +
-				'</td></tr>';
-		})
-		.join('\n');
-}
 </script>
+
 <table border="0" style='font-size:50%' id="A350"></table>
