@@ -62,6 +62,7 @@ font_settings:
   body_font: '"Muli", sans-serif'
   regular_weight: 400
   bold_weight: 600
+  font-display: swap
   site_title:
     small_size: 25
     medium_size: 30
