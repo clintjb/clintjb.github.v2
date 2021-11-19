@@ -7,27 +7,9 @@ categories: [digitalization]
 comments: true
 featured_image: '/images/posts/2021/a350-feature.jpg'
 ---
-<script>
-    fetch('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
-    ).then((response) => {
-        return response.text();
-    }).then((text) => {
-        document.getElementById('A350').innerHTML = tbl(text);
-    })
 
-    function tbl(csv) {
-        return csv.split('\n')
-            .map(function (tr, i) {
-                return '<tr><td>' +
-                    tr.replace(/,/g, '</td><td>') +
-                    '</td></tr>';
-            })
-            .join('\n');
-    }
-
-</script>
 ![](/images/posts/2021/a350.jpg)
-
+{% include a350_csv.html %}
 _⚠️ **IF USING MOBILE BROWSER**: I never designed this experiment / POC for mobile devices (was tricky enough to embed dynamically updated charts & data into a static site so didn't bother with responsive as well) I would highly recommend checking this out on a desktop to ensure everything renders correctly._
 
 
@@ -148,8 +130,6 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
 ```
 
 _👇 If you don't see a table below, try CTRL + SHIFT + R_
-
-{% include a350_csv.html %}
 
 <table border="0" style='font-size:50%' id="A350"></table>
 
