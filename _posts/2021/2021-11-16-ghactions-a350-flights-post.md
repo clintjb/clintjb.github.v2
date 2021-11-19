@@ -131,27 +131,7 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
 
 _👇 If you don't see a table below, try CTRL + SHIFT + R_
 
-<script>
-    fetch('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
-    ).then((response) => {
-        return response.text();
-    }).then((text) => {
-        document.getElementById('A350').innerHTML = tbl(text);
-    })
-
-    function tbl(csv) {
-        return csv.split('\n')
-            .map(function (tr, i) {
-                return '<tr><td>' +
-                    tr.replace(/,/g, '</td><td>') +
-                    '</td></tr>';
-            })
-            .join('\n');
-    }
-
-</script>
-
-<table border="0" style='font-size:50%' id="A350"></table>
+{% include a350_csv.html %}
 
 ### Part 2 - GitHub Actions & Automation
 
