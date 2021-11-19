@@ -57,12 +57,11 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700&display=swap" rel="stylesheet">'
   title_font: '"Muli", sans-serif'
   body_font: '"Muli", sans-serif'
   regular_weight: 400
   bold_weight: 600
-  font-display: swap
   site_title:
     small_size: 25
     medium_size: 30
