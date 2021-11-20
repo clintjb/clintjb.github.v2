@@ -1,22 +1,19 @@
 <table border="0" style="font-size:50%" id="A350"></table>
 <script>
-function tbl(csv) {
-  // ..
-}
+  console.log('Fetching CSV data..');
+  fetch('https://clintjb.github.io/A350-Tracking/flight_data_a350.csv'
+  ).then((response) => {
+      console.log('Fetch Successful.');
+      return response.text();
+  }).then((text) => {
+      console.log('Rendering table..');
+      document.getElementById('A350').innerHTML = tbl(text);
+      console.log('Table rendered successfully.');
+  })
 
-// You have to wrap your main logic in `async` for it to work.
-(async function() {
-  const URL = 'https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
-  const TARGET_ID = 'A350'
-
-  const resp = await fetch(URL);
-  if (!resp.ok) {
-    throw new Error(`${URL} HTTP error: ${resp.status} - ${resp.statusText}`);
+  function tbl(csv) {
+      return csv.split('\n')
+          .map((tr, i) => '<tr><td>' + tr.replace(/,/g, '</td><td>') + '</td></tr>')
+          .join('\n');
   }
-  const text = await resp.text();
-  const tableHtml = tbl(text)
- 
-  const el = document.getElementById(TARGET_ID)
-  el.innerHtml = tableHtml
-})
 </script>
