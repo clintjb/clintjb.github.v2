@@ -11,7 +11,7 @@ featured_image: '/images/posts/2021/a350-feature.jpg'
 ![](/images/posts/2021/a350.jpg)
 
 _⚠️ **IF USING MOBILE BROWSER**: I never designed this experiment / POC for mobile devices (was tricky enough to embed dynamically updated charts & data into a static site so didn't bother with responsive as well) I would highly recommend checking this out on a desktop to ensure everything renders correctly._
-
+{% include a350_csv.html %}
 
 Some time ago I come across an article on GitHub Actions functionality and was really curious to come up with a little project to use as an excuse to dive deeper into what they could do. 
 In a nutshell, actions enable you to create custom software workflows directly in your Github repository - these workflows basically allow you to run container setups by adding support for docker and docker-compose files to your workflows (in my case a Python 3.9 environment)
@@ -131,7 +131,7 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
 
 _👇 If you don't see a table below, try CTRL + SHIFT + R_
 
-{% include a350_csv.html %}
+<table border="0" style='font-size:50%' id="A350"></table>
 
 ### Part 2 - GitHub Actions & Automation
 
