@@ -27,7 +27,7 @@ So with that my first idea was to come up with a little workflow that would be w
 
 ### Part 1 - Python Script
 
-So firstly I searched around for a while and stumbled across [Opensky-Network](ttps://opensky-network.org/datasets/metadata/) which provided quite a comprehensive list of aircraft. From here I created a slimmed-down "master list" of the unique [transponder HEX](https://en.wikipedia.org/wiki/Aviation_transponder_interrogation_modes) codes relevant to each A350:
+So firstly I searched around for a while and stumbled across [Opensky-Network](https://opensky-network.org/datasets/metadata/) which provided quite a comprehensive list of aircraft. From here I created a slimmed-down "master list" of the unique [transponder HEX](https://en.wikipedia.org/wiki/Aviation_transponder_interrogation_modes) codes relevant to each A350:
 
 ```python
 # Import A350 Dataset & Create List Of Unique A350 HEX Codes
@@ -130,7 +130,7 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
 ```
 
 <table>
-  {% for row in site.data.flight_data_a350 %}
+  {% for row in https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
