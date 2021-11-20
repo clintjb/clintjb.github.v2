@@ -1,19 +1,19 @@
-<table border="0" style="font-size:50%" id="A350"></table>
 <script>
-  console.log('Fetching CSV data..');
-  fetch('https://clintjb.github.io/A350-Tracking/flight_data_a350.csv'
-  ).then((response) => {
-      console.log('Fetch Successful.');
-      return response.text();
-  }).then((text) => {
-      console.log('Rendering table..');
-      document.getElementById('A350').innerHTML = tbl(text);
-      console.log('Table rendered successfully.');
-  })
+    fetch('https://clintjb.github.io/A350-Tracking/flight_data_a350.csv'
+    ).then((response) => {
+        return response.text();
+    }).then((text) => {
+        document.getElementById('A350').innerHTML = tbl(text);
+    })
 
-  function tbl(csv) {
-      return csv.split('\n')
-          .map((tr, i) => '<tr><td>' + tr.replace(/,/g, '</td><td>') + '</td></tr>')
-          .join('\n');
-  }
+    function tbl(csv) {
+        return csv.split('\n')
+            .map(function (tr, i) {
+                return '<tr><td>' +
+                    tr.replace(/,/g, '</td><td>') +
+                    '</td></tr>';
+            })
+            .join('\n');
+    }
+
 </script>
