@@ -138,6 +138,10 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
       {% endfor %}
     </tr>
     {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
   {% endfor %}
 </table>
 
