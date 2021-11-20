@@ -130,7 +130,7 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
 ```
 
 <table>
-  {% for row in https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv %}
+  {% for row in site.data.a350_data.a350 %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
