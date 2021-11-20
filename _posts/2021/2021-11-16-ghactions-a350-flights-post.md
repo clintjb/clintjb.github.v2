@@ -12,6 +12,31 @@ featured_image: '/images/posts/2021/a350-feature.jpg'
 
 _⚠️ **IF USING MOBILE BROWSER**: I never designed this experiment / POC for mobile devices (was tricky enough to embed dynamically updated charts & data into a static site so didn't bother with responsive as well) I would highly recommend checking this out on a desktop to ensure everything renders correctly._
 
+
+
+<table border="0" style="font-size:50%" id="A3501"></table>
+<script>
+function tbl(csv) {
+  // ..
+}
+
+// You have to wrap your main logic in `async` for it to work.
+(async function() {
+  const URL = 'https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
+  const TARGET_ID = 'A3501'
+
+  const resp = await fetch(URL);
+  if (!resp.ok) {
+    throw new Error(`${URL} HTTP error: ${resp.status} - ${resp.statusText}`);
+  }
+  const text = await resp.text();
+  const tableHtml = tbl(text)
+ 
+  const el = document.getElementById(TARGET_ID)
+  el.innerHtml = tableHtml
+})
+</script>
+
 Some time ago I come across an article on GitHub Actions functionality and was really curious to come up with a little project to use as an excuse to dive deeper into what they could do. 
 In a nutshell, actions enable you to create custom software workflows directly in your Github repository - these workflows basically allow you to run container setups by adding support for docker and docker-compose files to your workflows (in my case a Python 3.9 environment)
 Also super cool is that actions are free for every open-source repo and include 2000 free build minutes per month - definitely more than enough for my tiny little project.
@@ -195,3 +220,27 @@ I don't have too many additional lessons other than what was walked through, nev
 Secondly having Jekyll reach over to the other repo to load the data I think also isn't a great solution - here Id like to integrate writing the CSV to the _data_ directory of my Jekyll site direct and pull it locally, same with the dynamic chart. Pushing this to the _includes_ folder and running everything locally would be a nicer solution.
 
 Lastly, the Plotly chart would be nicer via utilizing Mapbox - here though would require securing integration of the access tokens in a public site which I couldn't be bothered with for a quick & dirty proof of concept. Nevertheless was super interesting for a quick project and enormously impressed by what GitHub actions bring to the average joe!
+
+
+<script>
+function tbl(csv) {
+  // ..
+}
+
+// You have to wrap your main logic in `async` for it to work.
+(async function() {
+  const URL = 'https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
+  const TARGET_ID = 'A3502'
+
+  const resp = await fetch(URL);
+  if (!resp.ok) {
+    throw new Error(`${URL} HTTP error: ${resp.status} - ${resp.statusText}`);
+  }
+  const text = await resp.text();
+  const tableHtml = tbl(text)
+ 
+  const el = document.getElementById(TARGET_ID)
+  el.innerHtml = tableHtml
+})
+</script>
+<table border="0" style="font-size:50%" id="A3502"></table>
