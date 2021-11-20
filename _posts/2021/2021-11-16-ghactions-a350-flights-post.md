@@ -129,22 +129,6 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
 <table border="0" style='font-size:50%' id="A350"></table>
 ```
 
-<table>
-  {% for row in site.data.a350_data.a350 %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
-</table>
-
 _👇 If you don't see a table below, try CTRL + SHIFT + R_
 
 {% include a350_csv.html %}
