@@ -1,6 +1,5 @@
-<table border="0" style="font-size:50%" id="A350"></table>
 <script>
-    fetch('https://clintjb.github.https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
+    fetch('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
     ).then((response) => {
         return response.text();
     }).then((text) => {
@@ -16,4 +15,7 @@
             })
             .join('\n');
     }
+
 </script>
+
+<table border="0" style='font-size:50%' id="A350"></table>
