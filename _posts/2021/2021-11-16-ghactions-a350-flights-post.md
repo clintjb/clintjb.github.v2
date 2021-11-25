@@ -8,7 +8,7 @@ comments: true
 featured_image: '/images/posts/2021/a350-feature.jpg'
 ---
 
-![](/images/posts/2021/a350.jpg)
+![Aeroplane](/images/posts/2021/a350.jpg)
 
 _⚠️ **IF USING MOBILE BROWSER**: I never designed this experiment / POC for mobile devices (was tricky enough to embed dynamically updated charts & data into a static site so didn't bother with responsive as well) I would highly recommend checking this out on a desktop to ensure everything renders correctly._
 
@@ -43,13 +43,17 @@ password = ''
 url_data = 'https://'+user_name+':'+password+'@opensky-network.org/api/states/all?'
 response = requests.get(url_data).json()
 
-# Load Response Into Data Frame
-column_names = ['icao24','callsign','origin_country','time_position','last_contact','long','lat','baro_altitude','on_ground','velocity',       
-'true_track','vertical_rate','sensors','geo_altitude','squawk','spi','position_source','dummy']
+# Load Response Into DataFrame
+column_names = [
+    'icao24', 'callsign', 'origin_country', 'time_position' 'last_contact',
+    'long', 'lat', 'baro_altitude', 'on_ground', 'velocity', 'true_track',
+    'vertical_rate', 'sensors', 'geo_altitude', 'squawk', 'spi',
+    'position_source', 'dummy'
+]
 flight_data = pd.DataFrame(response['states'],columns = column_names)
 
 # Join Datasets To Identify A350s & Tail Details
-flight_data_a350 = pd.merge(flight_data, a350_data, on = 'icao24')
+flight_data_a350 = pd.merge(flight_data, a350_data, on='icao24')
 ```
 
 From here we now have a clean list of A350s including their longitudinal, latitudinal, altitude, etc. We're now ready to start plotting the data with Plotly onto a geo scatter chart - just to ensure the scatter points remained relevant I created an additional column joining some of the relevant data to act as a label for each point:
@@ -81,20 +85,30 @@ fig = go.Figure(data=go.Scattergeo(
         )))
 
 fig.update_layout(
-        geo_scope = 'world',
-        )
+    geo_scope = 'world',
+)
 ```
 
 Here you can see the outcome of this chart
+
 {% include a350.html %}
-Next, I would also like to keep the high-level details and output these directly into a table. To do this I decided to clean the columns, and extract the data as a CSV (you can find that [here](https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv) at the same time also extracting the map as a [static image](https://github.com/clintjb/A350-Tracking/blob/main/flight_data_a350.png) & the map as a [self-contained HTML](https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html)):
+
+Next, I would also like to keep the high-level details and output these directly into a table. To do this I decided to clean the columns, and extract the data as a CSV (you can find that [here][] at the same time also extracting the map as a [static image][] and the map as a [self-contained HTML][]):
+
+[here]: https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv
+[static image]: https://github.com/clintjb/A350-Tracking/blob/main/flight_data_a350.png
+[self-contained HTML]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html
 
 ```python
 # Prepare Dataset For Export
-data_export = flight_data_a350[['callsign','model','serialnumber','baro_altitude','on_ground']]
+data_export = flight_data_a350[['callsign', 'model', 'serialnumber', 'baro_altitude', 'on_ground']]
 data_export['serialnumber'] = data_export['serialnumber'].astype(str).apply(lambda x: x.replace('.0',''))
+
 data_export['Export'] = datetime.today().strftime('%d/%m/%Y - %H:%M')
-data_export.rename(columns = {'callsign': 'A/C', 'model': 'Type', 'baro_altitude': 'Altitude', 'on_ground': 'Grounded', 'serialnumber': 'MSN'}, inplace=True)
+
+columns = {'callsign': 'A/C', 'model': 'Type', 'baro_altitude': 'Altitude', 
+           'on_ground': 'Grounded', 'serialnumber': 'MSN'}
+data_export.rename(columns=columns, inplace=True)
 
 # Export Data
 data_export.to_csv('flight_data_a350.csv', index=False)
@@ -104,28 +118,8 @@ fig.write_html("flight_data_a350.html")
 
 Finally, I wanted to be able to dynamically load this CSV as a table via JS in Jekyll itself - the code was a little dirty but in the end, was as follows:
 
-```js
-<script>
-    fetch('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
-    ).then((response) => {
-        return response.text();
-    }).then((text) => {
-        document.getElementById('A350').innerHTML = tbl(text);
-    })
-
-    function tbl(csv) {
-        return csv.split('\n')
-            .map(function (tr, i) {
-                return '<tr><td>' +
-                    tr.replace(/,/g, '</td><td>') +
-                    '</td></tr>';
-            })
-            .join('\n');
-    }
-
-</script>
-
-<table border="0" style='font-size:50%' id="A350"></table>
+```html
+{% include a350_csv.html %}
 ```
 
 _👇 If you don't see a table below, try CTRL + SHIFT + R_
@@ -186,7 +180,9 @@ jobs:
           git push
 ```
 
-Here you can see your basically defining the CRON schedule, what build the VM should have / what Python version / scripts to run etc - Genuinely a little bit of googling or snooping through the [market place](https://github.com/marketplace?type=actions) will get you on the right track. Genuinely couldn't be easier to build a relatively robust pipeline in no time at all.
+Here you can see your basically defining the CRON schedule, what build the VM should have / what Python version / scripts to run etc.
+
+Genuinely a little bit of googling or snooping through the [Actions Marketplace](https://github.com/marketplace?type=actions) will get you on the right track. Couldn't be easier to build a relatively robust pipeline in no time at all.
 
 ### Part 3 - Lessons & Future Fixes
 
