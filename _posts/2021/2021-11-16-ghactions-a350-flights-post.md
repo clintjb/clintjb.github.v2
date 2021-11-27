@@ -124,7 +124,21 @@ Finally, I wanted to be able to dynamically load this CSV as a table via JS in J
 
 _👇 If you don't see a table below, try CTRL + SHIFT + R_
 
-{% include a350_csv.html %}
+<table>
+  {% for row in site.data.flight_data_a350 %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
 ### Part 2 - GitHub Actions & Automation
 
