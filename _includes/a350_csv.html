@@ -1,21 +1,26 @@
-<script>
-    fetch('https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
-    ).then((response) => {
-        return response.text();
-    }).then((text) => {
-        document.getElementById('A350').innerHTML = tbl(text);
-    })
+<table border="0" style='font-size:50%' id="A350"></table>
 
-    function tbl(csv) {
-        return csv.split('\n')
-            .map(function (tr, i) {
-                return '<tr><td>' +
-                    tr.replace(/,/g, '</td><td>') +
-                    '</td></tr>';
-            })
-            .join('\n');
-    }
+<script>
+  const FLIGHT_DATA_CSV_URL = 'https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv'
+
+  function csvToTable(csvData) {
+    return csvData.split('\n')
+      .map(function (tr, i) {
+        const rowValue = tr.replace(/,/g, '</td><td>');
+        
+        return `<tr><td>${rowValue}</td></tr>`;
+      })
+      .join('\n');
+  }
+
+  window.onload = function () {
+    fetch(FLIGHT_DATA_CSV_URL)
+      .then(resp => resp.text())
+      .then(text => {
+        const result = csvToTable(text);
+        const tableEl = document.getElementById('A350');
+        tableEl.innerHTML = result;
+      })
+  }
 
 </script>
-
-<table border="0" style='font-size:50%' id="A350"></table>
