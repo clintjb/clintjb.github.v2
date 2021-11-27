@@ -119,13 +119,13 @@ fig.write_image("flight_data_a350.png", width=1280, height=720)
 Finally, I wanted to be able to dynamically load this CSV as a table via JS in Jekyll itself:
 
 
-_**UDATE**: The original code was as below but has now been replaced (can be seen in the next step) I've kept it here simply as it did work but seemed to have some bugs with the template itself as it wouldn't show without a refresh when being linked via the menus 🤷‍♂️._
+_**UPDATE**: The original code was as below but has now been replaced (can be seen in the next step) I've kept it here simply as it did work but seemed to have some bugs with the template itself as it wouldn't show without a refresh when being linked via the menus_ 🤷‍♂️
 
 ```html
 {% include a350_csv.html %}
 ```
 
-_**UDATE**: The final solution was actually based on a Tabulate function which you can find [here](https://jekyllrb.com/tutorials/csv-to-table/) - I created another action which simply pushes the files each day from the other repo to this one in the data directory and allows it to be grabbed accordingly. This solution, as well as an ENORMOUS number of other minor learnings, were all provided by [Michael Currin](https://github.com/MichaelCurrin) - this guy was absolutely gold throughout this whole process and honestly a brilliant example of the open-source & dev community at large - thankyou 🙏_
+_**UPDATE**: The final solution was actually based on a Tabulate function which you can find [here](https://jekyllrb.com/tutorials/csv-to-table/) - I created another action which simply pushes the files each day from the other repo to this one in the data directory and allows it to be grabbed accordingly. This solution (as well as time spent highlighting an ENORMOUS number of other minor learnings, fixes, best practices etc) were all provided by [Michael Currin](https://github.com/MichaelCurrin) - this guy was absolutely gold throughout this whole process and honestly a brilliant example of the open-source & dev community at large - thanks mate_ 🙏
 
 ![thanks](/images/posts/2021/thanks.gif)
 
