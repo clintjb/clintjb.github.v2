@@ -95,9 +95,9 @@ Here you can see the outcome of this chart
 
 Next, I would also like to keep the high-level details and output these directly into a table. To do this I decided to clean the columns, and extract the data as a CSV (you can find that [here][] at the same time also extracting the map as a [static image][] and the map as a [self-contained HTML][]):
 
-[here]: https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.csv
+[here]: https://raw.githubusercontent.com/clintjb/clintjb.github.io/master/_data/flight_data_a350.csv
 [static image]: https://github.com/clintjb/A350-Tracking/blob/main/flight_data_a350.png
-[self-contained HTML]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/A350-Tracking/main/flight_data_a350.html
+[self-contained HTML]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/clintjb/clintjb.github.io/master/_data/flight_data_a350.html
 
 ```python
 # Prepare Dataset For Export
@@ -111,18 +111,19 @@ columns = {'callsign': 'A/C', 'model': 'Type', 'baro_altitude': 'Altitude',
 data_export.rename(columns=columns, inplace=True)
 
 # Export Data
-data_export.to_csv('flight_data_a350.csv', index=False)
+data_export.to_csv('_data/flight_data_a350.csv', index=False)
+fig.write_html("_data/flight_data_a350.html")
 fig.write_image("flight_data_a350.png", width=1280, height=720)
-fig.write_html("flight_data_a350.html")
 ```
 
-Finally, I wanted to be able to dynamically load this CSV as a table via JS in Jekyll itself - the code was a little dirty but in the end, was as follows:
-
+Finally, I wanted to be able to dynamically load this CSV as a table via JS in Jekyll itself:
+_*UPDATE:* The original code was as below but has now been replaced (can be seen in the next step) I've kept it here simply as it did work but seemed to have some bugs with the template itself as it wouldn't show without a refresh when being linked via the menus ¯\_(ツ)_/¯ _
 ```html
 {% include a350_csv.html %}
 ```
 
-_👇 If you don't see a table below, try CTRL + SHIFT + R_
+_*UPDATE:* The final solution was actually based on a Tabulate function which you can find [here](https://jekyllrb.com/tutorials/csv-to-table/) - I created another action which simply pushes the files each day from the other repo to this one in the _data directory and allows it to be grabbed accordingly. This solution, as well as an ENORMOUS number of other minor learnings, were all provided by [Michael Currin](https://github.com/MichaelCurrin) - this guy was absolutely gold throughout this whole process and honestly a brilliant example of the open-source & dev community at large - thankyou 🙏 _
+![thanks](/images/posts/2021/thanks.gif)
 
 <table>
   {% for row in site.data.flight_data_a350 %}
@@ -205,8 +206,14 @@ Genuinely a little bit of googling or snooping through the [Actions Marketplace]
 
 ### Part 3 - Lessons & Future Fixes
 
-I don't have too many additional lessons other than what was walked through, nevertheless a few little "buggy" things that would likely be nice to fix up. Firstly my site has a 3rd party cache on it to increase page load performance - this causes all kinds of troubles with the dynamic charts not being refreshed for returning visitors. I don't have a solution in mind yet for this but it's clearly far from ideal.
+~~I don't have too many additional lessons other than what was walked through, nevertheless a few little "buggy" things that would likely be nice to fix up. Firstly my site has a 3rd party cache on it to increase page load performance - this causes all kinds of troubles with the dynamic charts not being refreshed for returning visitors. I don't have a solution in mind yet for this but it's clearly far from ideal.~~
+This has also been fixed via a setting up a specific page rule on my Cloudflare account:
+```
+http://*clintbird.com/blog/ghactions-a350-flights-post
+Rocket Loader: Off, Cache Level: Bypass
+```
 
-Secondly having Jekyll reach over to the other repo to load the data I think also isn't a great solution - here Id like to integrate writing the CSV to the _data_ directory of my Jekyll site direct and pull it locally, same with the dynamic chart. Pushing this to the _includes_ folder and running everything locally would be a nicer solution.
+~~Secondly having Jekyll reach over to the other repo to load the data I think also isn't a great solution - here Id like to integrate writing the CSV to the _data_ directory of my Jekyll site direct and pull it locally, same with the dynamic chart. Pushing this to the _includes_ folder and running everything locally would be a nicer solution.~~
+This has now been fixed via the action you can find [here](https://github.com/clintjb/A350-Tracking/blob/main/.github/workflows/file_push.yml)
 
 Lastly, the Plotly chart would be nicer via utilizing Mapbox - here though would require securing integration of the access tokens in a public site which I couldn't be bothered with for a quick & dirty proof of concept. Nevertheless was super interesting for a quick project and enormously impressed by what GitHub actions bring to the average joe!
