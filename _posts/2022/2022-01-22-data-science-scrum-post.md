@@ -13,9 +13,12 @@ featured_image: '/images/posts/2022/scrum-feature.jpg'
 I really enjoyed reading this article (and actually shared it with my team for a bit of a chuckle) as it really reconfirms all the lessons the team and I have gone through. At the advice of a sister organization from IT we attended a one-day training on Agile / Scrum and applied basically all the points the article touches on (planning poker was one of my personal favorite disasters!)
 
 Although we have a mix of data engineering / infrastructure and data science activities we've basically come to the exact same point - that what's actually critical are processes and ways of workings to support the following:
+
 * Regular status / demo meetings for alignment and visibility
 * Strong documentation for transparency
 * Timeboxing activities to give regular points to reflect if approaches are working or not
+
+
 It reminds me very much of an article found [here](https://clintbird.com/blog/digital-cargo-cults-post) on the cargo cult phenomenon - really about people falling into the trap of copying superficial tools without it necessarily matching the culture or needs of the organization. I can say we certainly fell victim to this ourselves, but thankfully pulled ourselves back to reality. Anyway, an interesting read which was found originally here on [Towards Data Science](https://towardsdatascience.com/dont-make-data-scientists-do-scrum-de87bc921a6b)
 
 ---
@@ -25,18 +28,22 @@ Scrum has been super popular for many years. I’m amazed by its success in mark
 
 To me, Scrum seemed process-heavy, which would violate the very first value of the [Agile Manifesto](http://agilemanifesto.org/) — Individuals and Interactions over Processes and Tools. But maybe I didn’t know enough about Scrum? So I decided to learn more about Scrum and even became a certified Scrum Master. Now I understand better why I don’t like it and why it is not ideal for data scientists.
 
+
 # **1. Scrum is immutable**
 
 > Scrum Guide: “The Scrum framework, as outlined herein, is immutable. While implementing only parts of Scrum is possible, the result is not Scrum. Scrum exists only in its entirety and functions well as a container for other techniques, methodologies, and practices.”
+>
 > *“Each element of the framework serves a specific purpose that is essential to the overall value and results realized with Scrum. Changing the core design or ideas of Scrum, leaving out elements, or not following the rules of Scrum, covers up problems and limits the benefits of Scrum, potentially even rendering it useless.”*
 
 Scrum is a framework consisting of a small team of a Scrum Master, a Product Owner, and one or more Developers. Scrum is organized into Sprints, with four Sprint-related events: Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective. According to the Scrum Guide, Scrum is immutable. How can an Agile framework be not Agile at all? Many people say they like just using Jira tickets and daily standups, which according to the Scrum Guide, are not Scrum.
+
 
 # **2. Data Scientists do not work on a single “product” and oftentimes our work is not an increment**
 
 > Scrum Guide: “The heart of Scrum is a Sprint, which is one month or less during which a done, usable, valuable product Increment is created. This applies to every Sprint. The purpose of a Sprint is to produce a valuable and useful Increment of working product.”
 
 Data scientists often work solely on various projects with each project tied to different stakeholders. Data scientists on the same team often do not work on the same “product” and have a shared “product goal”. The work data scientists do is often not an increment and not designed towards a single “product goal” or a “sprint goal”.
+
 
 # **3. Data scientists do not always need a product owner**
 
@@ -48,12 +55,14 @@ Also, in Scrum, it is the product owner’s responsibility to break down complex
 
 It’s also unreasonable for the product owner to set priorities for projects. Other stakeholders often give us timelines for our projects. Because of these requirements coming from different sources, data scientists need to be able to prioritize their own time based on the timeline and urgency of all the different projects. If needed, a data science manager, not a product owner, should be able to help.
 
+
 # **4. Scrum takes ownership away**
 
 > Srum.org: “When does a Developer become the sole owner of an item on the Sprint Backlog?
 > *Never. All Sprint Backlog items are “owned” by the Developers on the Scrum Team. The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint, and the set of Product Backlog items selected for the Sprint are collectively owned by the Developers. No individual Developer can claim ownership over an item as this would block communication and collaboration. The Sprint Backlog is updated by the Developers throughout the Sprint as more is learned.”*
 
 It’s fairly common for data scientists to own their projects. Having this sense of ownership intrinsically motivates data scientists to do well in projects. Frankly, data scientists might not even want to own other data scientists’ projects. For example, a data scientist who is working on the news feed should not feel like he/she should own an ads project another data scientist is working on. The knowledge and expertise involved simply do not transfer evenly between people, in part because each person is on a voyage of discovery about that particular topic. Even if two data scientists are working on the same project, in my opinion, each one should still own different parts of the project.
+
 
 # **5. The definition of “Done” varies across projects**
 
@@ -62,11 +71,13 @@ It’s fairly common for data scientists to own their projects. Having this sens
 
 Different projects are very different, it is not likely to use the same definition of Done for all of our projects.
 
+
 # **6. Sprint Review does not work**
 
 > Scrum Guide: “The purpose of the Sprint Review is to inspect the outcome of the Sprint and determine future adaptations. The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed.“
 
 A team of data scientists may have many different key stakeholders. Which stakeholders do we invite to the sprint review? It is often more effective for data scientists to present results to their various project stakeholders directly in a weekly project meeting.
+
 
 # **More Thoughts**
 
