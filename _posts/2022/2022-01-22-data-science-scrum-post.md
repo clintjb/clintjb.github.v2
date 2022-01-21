@@ -24,6 +24,7 @@ It reminds me very much of an article found [here](https://clintbird.com/blog/di
 ---
 
 > Scrum Guide: “Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.”
+
 Scrum has been super popular for many years. I’m amazed by its success in marketing. It’s like the Kardashians of the software development management framework world. I feel the same way about Scrum as one of the [Agile Manifesto](http://agilemanifesto.org/) authors wrote about Agile in his [Agile is Dead](https://pragdave.me/blog/2014/03/04/time-to-kill-agile.html) article: “Once the Manifesto became popular, the word agile became a magnet for anyone with points to espouse, hours to bill, or products to sell.”
 
 To me, Scrum seemed process-heavy, which would violate the very first value of the [Agile Manifesto](http://agilemanifesto.org/) — Individuals and Interactions over Processes and Tools. But maybe I didn’t know enough about Scrum? So I decided to learn more about Scrum and even became a certified Scrum Master. Now I understand better why I don’t like it and why it is not ideal for data scientists.
@@ -47,7 +48,7 @@ Data scientists often work solely on various projects with each project tied to 
 
 ## 3. Data scientists do not always need a product owner
 
-> Scrum Guide:“The Product Owner represents the needs of many stakeholders in the Product Backlog. The Product Owner represents the stakeholders to the Scrum Team, which includes representing their desired requirements in the Product Backlog.”
+> Scrum Guide: “The Product Owner represents the needs of many stakeholders in the Product Backlog. The Product Owner represents the stakeholders to the Scrum Team, which includes representing their desired requirements in the Product Backlog.”
 
 Relying on product owners to represent stakeholders to the Scrum team for doing data science is a terrible idea. As I mentioned earlier, data scientists often work with many different stakeholders and different projects. To get the context from the product owner is simply not enough, not motivating, and not necessary. It’s more effective for data scientists to directly interact with stakeholders, understand the context of the problem, dive into discussions with stakeholders, and make a plan themselves.
 
